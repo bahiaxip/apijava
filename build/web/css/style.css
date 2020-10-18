@@ -1,0 +1,265 @@
+*{
+    /*zoom:102.5%;*/
+}
+.header{
+    
+}
+
+.nav1{
+    background-color:#ff9700;
+}
+.nav1:hover{
+    background-color:#ff7a00;
+}
+.nav2{
+    background-color:#34aaff;
+}
+.nav2:hover{
+    background-color:#0082ff;
+}
+.nav3{
+    background-color: #00ca28;
+}
+.nav3:hover{
+    background-color: #008e00;
+}
+
+.b_light_orange{
+    background-color:#ff9700;
+}
+.b_light_blue{
+    background-color:#34aaff;
+}
+
+.grey_light{
+    background-color:#8f8f8f;
+}
+.b_light_grey{
+    background-color: #f1f1f1;
+}
+.b_light_green{
+    background-color:#00ca28;
+}
+.b_darkgrey{
+    background-color:#a1a1a1 ;
+}
+
+.orange_dark{
+    color:#d26300
+}
+.c_orange{
+    color:#ff9700;
+}
+.c_light_blue{
+    color:#34aaff;
+}
+.light_green{
+    color:#00ca28;
+}
+.dark_grey{
+    color:#696969;
+}
+.orange{
+    color:#ff9700;
+    font-size:18px !important;
+}
+
+.border_dark_grey{
+    border: #a1a1a1 1px solid;
+}
+
+.panel_card{   
+    color:#1C1C1C;
+    transition:all 0.2s linear;
+}
+
+.panel_card:hover{    
+    background-color:#f1f1f1;
+    transform:scale(0.97)
+    
+}
+.fondo{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:-2;
+    background-color:#98FB98;
+    opacity:0.5;
+}
+.fondo_blanco{
+    background-color:white
+}
+.fondo_nasa{
+    background-image:url("../img/universo.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:fixed;
+    opacity:0.5;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.marvel{    
+    background-image:url("../img/fondo_marvel2.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    position:fixed;
+    width:100%;
+    height:100%;
+      
+}
+.fondo_comun{
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    position:absolute;
+    z-index:-1;
+}
+
+.fondo1{
+    background-image:url("../img/meat.png");    
+    background-position:right bottom;
+    background-size:25%;
+    
+}
+.fondo2{
+    background-image:url("../img/sushi_circle.png");
+    background-position:bottom center;
+    background-size:25%;
+}
+.fondo3{
+    background-image:url("../img/food.png");    
+    background-position:15% 12%;    
+    background-size:15%;
+}
+.fondo4{
+    background-image:url("../img/frutas_circle.png");    
+    background-position:90% 10%;    
+    background-size:15%;    
+}
+.fondo5{
+    background-image:url("../img/pizza.png");    
+    background-position:2% 90%;    
+    background-size:15%;    
+}
+
+/*.card-title>p:hover{
+    color:#FFA500 !important;
+}
+*/
+
+.noimage{
+    background-image:url("../img/no-imagen.jpg");
+    background-position:center center
+}
+
+.text_limit{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:Ellipsis;
+    max-width:26ch;
+}
+
+.text_limit:hover{
+    /*color:blue !important;*/
+}
+
+
+.times{
+    font-family:Sans serif;
+    
+}
+.nutrition_span{
+    font-size:14px;
+    color:#00ca28
+}
+
+
+.li_edamam_img{
+    
+   transition:all 0.3s ease-in-out; 
+}
+.li_edamam_img:hover{
+    transform:scale(1.1);
+    border:lightblue 0.5px solid;
+}
+/*solo enlace a*/
+.a_card_edamam{
+    color:#000
+}
+.a_card_edamam:hover p{
+    color:#000;    
+}
+.a_card_edamam:hover .card_edamam{
+    background-color:#f1f1f1;
+}
+
+
+.img_card_edamam{
+    transition:all 0.3s linear;
+}
+.img_card_edamam:hover{
+    transform:scale(1.04);
+    color:blue
+}
+
+.orange{
+    color:orange !important;
+}
+.bold{    
+    font-weight:bold;
+}
+
+.arial{
+    font-family: Arial;
+        
+}
+.f13{
+    font-size:13px
+}
+.f14{
+    font-size:14px
+}
+.f15{
+    font-size:15px;
+}
+.f16{
+    font-size:16px
+}
+.f17{
+    font-size:17px
+}
+.f18{
+    font-size:18px
+}
+.flamenco{
+    font-family:"Flamenco";
+}
+.acme{
+    font-family:"Acme"
+}
+
+@font-face{
+    font-family:"Acme";
+    src:"./fonts/Acme-Regular.ttf"
+}
+
+
+/*
+@font-face{
+    font-family:Baskerville;
+    src:"./fonts/BASKE1.ttf"
+}
+*/
+/*paginación bootstrap*/
+
+.pagination > li > a{
+    /*background-color:#696969;*/
+    color:#000;
+}
+.pagination > li > a:hover{
+    background-color:#9f9f9f;
+    color:white;
+    
+}
